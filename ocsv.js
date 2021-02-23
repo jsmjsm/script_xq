@@ -34,6 +34,6 @@ newObj.user_subscription.user_id = obj.user_id
 // done
 newBody = JSON.stringify(newObj)
 
-console.log(newBody)
+// console.log(newBody)
 
 $done(newBody)
