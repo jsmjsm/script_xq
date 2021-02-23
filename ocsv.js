@@ -25,7 +25,7 @@ var obj = JSON.parse(body)
 
 // create a new json body
 var txt =
-    '{"user_subscription":{"user_id":221083210,"subscription_code":"VSCOANNUAL","sku":"VSCOANNUAL","expired":false,"starts_on_sec":1613971748,"expires_on_sec":1914576548,"last_verified_sec":1613972180,"canceled_at_sec":null,"source":1,"payment_type":2,"invalid_reason":0,"is_trial_period":true,"is_intro_period":false,"intro_offer_consumed":true,"is_active":true,"auto_renew":true,"is_in_grace_period":false},"created_at":"2021-02-23T04:47:44.233345581Z"}'
+    '{"user_subscription":{"user_id":221083210,"subscription_code":"VSCOANNUAL","sku":"VSCOANNUAL","expired":false,"starts_on_sec":-639045900,"expires_on_sec":1914576548,"last_verified_sec":1613972180,"canceled_at_sec":null,"source":1,"payment_type":2,"invalid_reason":0,"is_trial_period":true,"is_intro_period":false,"intro_offer_consumed":true,"is_active":true,"auto_renew":true,"is_in_grace_period":false},"created_at":"2021-02-23T04:47:44.233345581Z"}'
 var newObj = JSON.parse(txt)
 
 // modify the user id
